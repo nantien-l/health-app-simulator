@@ -2,8 +2,9 @@
 
 A SwiftUI prototype of an Apple Health style summary screen. It includes pinned health cards, trends, activity and workout highlights, and light and dark appearance previews.
 
+## Preview
 
-![Uploading duodemo.gif…]()
+![Health App Simulator summary screen](screenshots/health-summary.png)
 
 ## Run
 
