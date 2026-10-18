@@ -11,7 +11,6 @@ import Playgrounds
 import SwiftUI
 import Charts
 import MapKit
-import UIKit
 
 struct ShowAllHealthTrendView: View {
     @Environment(\.colorScheme) private var colorScheme
@@ -22,14 +21,10 @@ struct ShowAllHealthTrendView: View {
             Image("trends-light")
                 .resizable()
                 .scaledToFit()
-        } else if UIImage(named: "trends-dark") != nil {
-            Image("trends-dark")
+        } else {
+            Image("trends")
                 .resizable()
                 .scaledToFit()
-        } else {
-            Image(systemName: "chart.line.uptrend.xyaxis")
-                .font(.system(size: 16, weight: .semibold))
-                .foregroundStyle(.blue)
         }
     }
 
